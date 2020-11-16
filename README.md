@@ -40,3 +40,4 @@ sudo nano /mnt/target/etc/fstab
 
 - Power down and remove SD card
 - Boot from USB :)
+- We advise to use Rufus to flash the SSD via Windows (enable MBR partition scheme)
