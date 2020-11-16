@@ -12,8 +12,9 @@ sudo apt full-upgrade
 sudo nano /etc/default/rpi-eeprom-update
 sudo rpi-eeprom-update -d -a
 ```
-
+- Select latest version boot ROM software from Boot ROM Version in raspi-config
 - Set USB boot through raspi-config
+- Check if USB Boot is enabled through `vcgencmd bootloader_config`, i.e. BOOT ORDER is 0xf41.
 
 - Mount SSD
 ```sh
